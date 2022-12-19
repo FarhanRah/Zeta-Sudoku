@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:background="@drawable/pop_up_window">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/white_circle"
+                android:onClick="changeColor"
+                android:tag="#ffffff" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/light_blue_circle"
+                android:onClick="changeColor"
+                android:tag="#9ACAE9" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_circle"
+                android:onClick="changeColor"
+                android:tag="#4C6793" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
